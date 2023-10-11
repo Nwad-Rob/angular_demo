@@ -1,0 +1,25 @@
+P{
+    color:aqua;
+    font-size:larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200; 
+    align-content: center;
+    text-align: center;
+}
+
+title{
+    color: blanchedalmond;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    align-content: first baseline;
+}
+
+body{
+    color: chartreuse;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+    align-content: space-evenly;
+    background-color:black
+}
+
