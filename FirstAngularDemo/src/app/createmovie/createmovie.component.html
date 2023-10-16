@@ -1,0 +1,42 @@
+<p>createmovie works!</p>
+<form method = "post">
+    <table>
+        <tr>
+            <td>
+    <label for="movieid">
+        Movie ID
+    </label></td>
+    <input type="text" name="movieid"[(ngModel)]="movieobj.movieid"/>
+        </tr>
+        <tr>
+            <td> 
+                <label for="moviename">
+                    Movie Name
+                </label>
+            </td>
+    <input type="text" name="moviename" [(ngModel)]="movieobj.moviename"/>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Price
+                </label>
+            </td>
+    <input type="text" name="price" [(ngModel)]="movieobj.price"/>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Duration
+                </label>
+            </td>
+    <input type = "text" name="duration" [(ngModel)]="movieobj.duration"/>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+    <button (click)="dataSubmit()"> Click Here</button>
+            </td>
+        </tr>
+    </table>
+</form>

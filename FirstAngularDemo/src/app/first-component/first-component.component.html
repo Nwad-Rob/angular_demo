@@ -1,1 +1,21 @@
 <p>first-component works!</p>
+<h1> First name is : {{fname}}</h1><br>
+<h2> Last name is : {{lname}}</h2>
+<ol>
+    <li *ngFor=" let a of arr"> 
+        Value is :{{a}}
+    </li>
+    <h2>Employee Data</h2>
+    <table>
+       <tr>
+        <td>Employee Id</td>
+        <td>Employee Name</td>
+        <td>Employee Salary</td>
+       </tr> 
+       <tr *ngFor=" let empdata of emparr">
+        <td>{{empdata.empid}}</td>
+        <td>{{empdata.empname}}</td>
+        <td>{{empdata.salary}}</td>
+       </tr>
+    </table>
+</ol>

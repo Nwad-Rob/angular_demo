@@ -1,0 +1,14 @@
+<p>second-component works!</p>
+<h1> Product Data</h1>
+<table border="1">
+    <tr>
+        <td>Product Id</td>
+        <td>Product Name</td>
+        <td>Product Price</td>
+    </tr>
+    <tr *ngFor="let empdata of prodarr">
+        <td>{{empdata.productId}}</td>
+        <td>{{empdata.productName}}</td>
+        <td>{{empdata.productPrice}}</td>
+    </tr>
+</table>
